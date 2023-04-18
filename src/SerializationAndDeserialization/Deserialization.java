@@ -5,9 +5,10 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 
 public class Deserialization {
-    public static void main(String[] args) throws IOException, ClassNotFoundException{
+
+    static void loadUser(String filePath) throws IOException, ClassNotFoundException{
         User user = null;
-        try(FileInputStream fileInputStream = new FileInputStream("SerializationAndDeserializationFile.txt");
+        try(FileInputStream fileInputStream = new FileInputStream(filePath);
             ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream)){
             user = (User) objectInputStream.readObject();
             objectInputStream.close();
@@ -21,5 +22,8 @@ public class Deserialization {
             System.out.println("Email: "+user.getEmail());
             System.out.println("Address: "+user.getAddress());
         }
+    }
+    public static void main(String[] args) throws IOException, ClassNotFoundException{
+        loadUser("SerializationAndDeserializationFile.txt");
     }
 }
