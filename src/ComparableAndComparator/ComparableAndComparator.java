@@ -1,5 +1,4 @@
 package ComparableAndComparator;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -7,7 +6,7 @@ import java.util.List;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
-public class Main {
+public class ComparableAndComparator {
     //ComparableAndComparator.Book Class Implementation
     //========================================================================================================
     public static void main(String[] args) {
@@ -45,6 +44,7 @@ public class Main {
 
         for(Employee e:employees) // Printing out the result
             System.out.println(e.getName()+" "+e.getAge()+" "+e.getSalary());
+
     }
 }
 
