@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e684fe6e-878f-4251-a1ad-270e7ebcab4d" name="Changes" comment="Week 2 - Serialization And Deserialization Problem - Made Necessary changes">
-      <change afterPath="$PROJECT_DIR$/src/FileHandling/FileHandling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_3/multithreading/Multithreading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_3/synchronization/Synchronization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SerializationAndDeserializationFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SerializationAndDeserializationFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComparableAndComparator/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/comparable_and_comparator/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComparableAndComparator/ComparableAndComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/comparable_and_comparator/ComparableAndComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComparableAndComparator/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/comparable_and_comparator/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileHandling/FileHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/FileHandling/FileHandling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generics/Generics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Generics/Generics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generics/MyCustomStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Generics/MyCustomStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SerializationAndDeserialization/Deserialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/SerializationAndDeserialization/Deserialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SerializationAndDeserialization/Serialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/SerializationAndDeserialization/Serialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SerializationAndDeserialization/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/SerializationAndDeserialization/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,26 +57,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileHandling">
-    <configuration name="ComparableAndComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ComparableAndComparator.ComparableAndComparator" />
-      <module name="JavaGrooming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ComparableAndComparator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Synchronization">
     <configuration name="Deserialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SerializationAndDeserialization.Deserialization" />
+      <option name="MAIN_CLASS_NAME" value="Week2.SerializationAndDeserialization.Deserialization" />
       <module name="JavaGrooming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SerializationAndDeserialization.*" />
+          <option name="PATTERN" value="Week2.SerializationAndDeserialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,11 +72,11 @@
       </method>
     </configuration>
     <configuration name="FileHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FileHandling.FileHandling" />
+      <option name="MAIN_CLASS_NAME" value="Week2.FileHandling.FileHandling" />
       <module name="JavaGrooming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FileHandling.*" />
+          <option name="PATTERN" value="Week2.FileHandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Generics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generics.Generics" />
+    <configuration name="Multithreading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_3.multithreading.Multithreading" />
       <module name="JavaGrooming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Generics.*" />
+          <option name="PATTERN" value="week_3.multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,7 +102,20 @@
       <module name="JavaGrooming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SerializationAndDeserialization.*" />
+          <option name="PATTERN" value="Week2.SerializationAndDeserialization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Synchronization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_3.synchronization.Synchronization" />
+      <module name="JavaGrooming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week_3.synchronization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Synchronization" />
+        <item itemvalue="Application.Multithreading" />
         <item itemvalue="Application.FileHandling" />
         <item itemvalue="Application.Deserialization" />
         <item itemvalue="Application.SerializationAndDeserialization" />
-        <item itemvalue="Application.Generics" />
-        <item itemvalue="Application.ComparableAndComparator" />
       </list>
     </recent_temporary>
   </component>

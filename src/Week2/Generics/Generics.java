@@ -1,7 +1,7 @@
-package Generics;
+package Week2.Generics;
 public class Generics {
     public static void main(String[] args){
-        //Generics
+        //Week2.Generics
         //========================================================================================================
 
         MyCustomStack<Integer> integerStack = new MyCustomStack<Integer>();
