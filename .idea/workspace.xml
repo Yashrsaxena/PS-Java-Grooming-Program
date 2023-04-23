@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e684fe6e-878f-4251-a1ad-270e7ebcab4d" name="Changes" comment="Week 3 - Multithreading and Synchronization Done">
-      <change afterPath="$PROJECT_DIR$/src/week_3/executive_framework/SimpleExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_3/executive_framework/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_3/multithreading/MutlithreadingDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_3/synchronization/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_3/synchronization/IncrementTask.java" afterDir="false" />
+    <list default="true" id="e684fe6e-878f-4251-a1ad-270e7ebcab4d" name="Changes" comment="Week 3 - Executor Framework Done">
+      <change afterPath="$PROJECT_DIR$/src/week3/futureNCallable/FactorialCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week3/futureNCallable/FutureImplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_3/multithreading/Multithreading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_3/multithreading/Multithreading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_3/synchronization/Synchronization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_3/synchronization/Synchronization.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +47,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SimpleExecutor">
-    <configuration name="Deserialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week2.SerializationAndDeserialization.Deserialization" />
+  <component name="RunManager" selected="Application.FutureImplementation">
+    <configuration name="FileHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week2.FileHandling.FileHandling" />
       <module name="JavaGrooming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week2.SerializationAndDeserialization.*" />
+          <option name="PATTERN" value="week2.FileHandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week2.FileHandling.FileHandling" />
+    <configuration name="FutureImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week3.futureNCallable.FutureImplementation" />
       <module name="JavaGrooming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week2.FileHandling.*" />
+          <option name="PATTERN" value="week3.futureNCallable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FutureImplementation" />
         <item itemvalue="Application.SimpleExecutor" />
         <item itemvalue="Application.Synchronization" />
         <item itemvalue="Application.Multithreading" />
         <item itemvalue="Application.FileHandling" />
-        <item itemvalue="Application.Deserialization" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682200983940</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Week 3 - Executor Framework Done">
+      <created>1682265690061</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682265690061</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,6 +227,7 @@
     <MESSAGE value="Week 2 - Serialization And Deserialization Problem Done" />
     <MESSAGE value="Week 2 - Serialization And Deserialization Problem - Made Necessary changes" />
     <MESSAGE value="Week 3 - Multithreading and Synchronization Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week 3 - Multithreading and Synchronization Done" />
+    <MESSAGE value="Week 3 - Executor Framework Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 3 - Executor Framework Done" />
   </component>
 </project>
