@@ -4,21 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e684fe6e-878f-4251-a1ad-270e7ebcab4d" name="Changes" comment="Week 2 - Serialization And Deserialization Problem - Made Necessary changes">
-      <change afterPath="$PROJECT_DIR$/src/week_3/multithreading/Multithreading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_3/synchronization/Synchronization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+    <list default="true" id="e684fe6e-878f-4251-a1ad-270e7ebcab4d" name="Changes" comment="Week 3 - Multithreading and Synchronization Done">
+      <change afterPath="$PROJECT_DIR$/src/week_3/executive_framework/SimpleExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_3/executive_framework/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_3/multithreading/MutlithreadingDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_3/synchronization/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_3/synchronization/IncrementTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SerializationAndDeserializationFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SerializationAndDeserializationFile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComparableAndComparator/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/comparable_and_comparator/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComparableAndComparator/ComparableAndComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/comparable_and_comparator/ComparableAndComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComparableAndComparator/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/comparable_and_comparator/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileHandling/FileHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/FileHandling/FileHandling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Generics/Generics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Generics/Generics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Generics/MyCustomStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Generics/MyCustomStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SerializationAndDeserialization/Deserialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/SerializationAndDeserialization/Deserialization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SerializationAndDeserialization/Serialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/SerializationAndDeserialization/Serialization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SerializationAndDeserialization/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/SerializationAndDeserialization/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_3/multithreading/Multithreading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_3/multithreading/Multithreading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_3/synchronization/Synchronization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_3/synchronization/Synchronization.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +42,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
@@ -57,13 +52,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Synchronization">
+  <component name="RunManager" selected="Application.SimpleExecutor">
     <configuration name="Deserialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week2.SerializationAndDeserialization.Deserialization" />
+      <option name="MAIN_CLASS_NAME" value="week2.SerializationAndDeserialization.Deserialization" />
       <module name="JavaGrooming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week2.SerializationAndDeserialization.*" />
+          <option name="PATTERN" value="week2.SerializationAndDeserialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,11 +67,11 @@
       </method>
     </configuration>
     <configuration name="FileHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week2.FileHandling.FileHandling" />
+      <option name="MAIN_CLASS_NAME" value="week2.FileHandling.FileHandling" />
       <module name="JavaGrooming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week2.FileHandling.*" />
+          <option name="PATTERN" value="week2.FileHandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,11 +80,11 @@
       </method>
     </configuration>
     <configuration name="Multithreading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_3.multithreading.Multithreading" />
+      <option name="MAIN_CLASS_NAME" value="week3.multithreading.Multithreading" />
       <module name="JavaGrooming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week_3.multithreading.*" />
+          <option name="PATTERN" value="week3.multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializationAndDeserialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SerializationAndDeserialization.SerializationAndDeserialization" />
+    <configuration name="SimpleExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week3.executive_framework.SimpleExecutor" />
       <module name="JavaGrooming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week2.SerializationAndDeserialization.*" />
+          <option name="PATTERN" value="week3.executive_framework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +106,11 @@
       </method>
     </configuration>
     <configuration name="Synchronization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_3.synchronization.Synchronization" />
+      <option name="MAIN_CLASS_NAME" value="week3.synchronization.Synchronization" />
       <module name="JavaGrooming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week_3.synchronization.*" />
+          <option name="PATTERN" value="week3.synchronization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimpleExecutor" />
         <item itemvalue="Application.Synchronization" />
         <item itemvalue="Application.Multithreading" />
         <item itemvalue="Application.FileHandling" />
         <item itemvalue="Application.Deserialization" />
-        <item itemvalue="Application.SerializationAndDeserialization" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681848274057</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Week 3 - Multithreading and Synchronization Done">
+      <created>1682200983940</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682200983940</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,6 +224,7 @@
     <MESSAGE value="Week 2 - Generics Stack Operations done" />
     <MESSAGE value="Week 2 - Serialization And Deserialization Problem Done" />
     <MESSAGE value="Week 2 - Serialization And Deserialization Problem - Made Necessary changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week 2 - Serialization And Deserialization Problem - Made Necessary changes" />
+    <MESSAGE value="Week 3 - Multithreading and Synchronization Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 3 - Multithreading and Synchronization Done" />
   </component>
 </project>

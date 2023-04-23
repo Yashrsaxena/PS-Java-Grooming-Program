@@ -1,4 +1,4 @@
-package Week2.Generics;
+package week2.Generics;
 import java.util.Stack;
 
 public class MyCustomStack<T> {

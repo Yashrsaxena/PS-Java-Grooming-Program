@@ -1,4 +1,4 @@
-package Week2.FileHandling;
+package week2.FileHandling;
 
 public class FileHandling {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package Week2.comparable_and_comparator;
+package week2.comparable_and_comparator;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;

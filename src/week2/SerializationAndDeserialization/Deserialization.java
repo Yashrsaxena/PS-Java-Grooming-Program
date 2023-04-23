@@ -1,4 +1,4 @@
-package Week2.SerializationAndDeserialization;
+package week2.SerializationAndDeserialization;
 
 import java.io.FileInputStream;
 import java.io.IOException;

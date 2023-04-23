@@ -1,4 +1,4 @@
-package Week2.Generics;
+package week2.Generics;
 public class Generics {
     public static void main(String[] args){
         //Week2.Generics
