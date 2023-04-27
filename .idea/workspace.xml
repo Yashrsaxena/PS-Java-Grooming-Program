@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e684fe6e-878f-4251-a1ad-270e7ebcab4d" name="Changes" comment="Week 3 - Executor Framework Done">
-      <change afterPath="$PROJECT_DIR$/src/week3/futureNCallable/FactorialCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week3/futureNCallable/FutureImplementation.java" afterDir="false" />
+    <list default="true" id="e684fe6e-878f-4251-a1ad-270e7ebcab4d" name="Changes" comment="Week 3 - Future and Callable Done">
+      <change afterPath="$PROJECT_DIR$/src/Practice/AnonymousInnerClass/AnonymousInnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/Streams/MyStreams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +41,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -47,13 +50,26 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FutureImplementation">
-    <configuration name="FileHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week2.FileHandling.FileHandling" />
+  <component name="RunManager" selected="Application.FutureAndCompletableFuture">
+    <configuration name="AnonymousInnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.AnonymousInnerClass.AnonymousInnerClass" />
       <module name="JavaGrooming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week2.FileHandling.*" />
+          <option name="PATTERN" value="Practice.AnonymousInnerClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FutureAndCompletableFuture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.FutureAndCompletableFuture.FutureAndCompletableFuture" />
+      <module name="JavaGrooming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice.FutureAndCompletableFuture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Multithreading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week3.multithreading.Multithreading" />
+    <configuration name="MyStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.Streams.MyStreams" />
       <module name="JavaGrooming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week3.multithreading.*" />
+          <option name="PATTERN" value="Practice.Streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,26 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Synchronization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week3.synchronization.Synchronization" />
-      <module name="JavaGrooming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week3.synchronization.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FutureAndCompletableFuture" />
+        <item itemvalue="Application.MyStreams" />
+        <item itemvalue="Application.AnonymousInnerClass" />
         <item itemvalue="Application.FutureImplementation" />
         <item itemvalue="Application.SimpleExecutor" />
-        <item itemvalue="Application.Synchronization" />
-        <item itemvalue="Application.Multithreading" />
-        <item itemvalue="Application.FileHandling" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682265690061</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Week 3 - Future and Callable Done">
+      <created>1682267934063</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682267934063</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,6 +238,7 @@
     <MESSAGE value="Week 2 - Serialization And Deserialization Problem - Made Necessary changes" />
     <MESSAGE value="Week 3 - Multithreading and Synchronization Done" />
     <MESSAGE value="Week 3 - Executor Framework Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week 3 - Executor Framework Done" />
+    <MESSAGE value="Week 3 - Future and Callable Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 3 - Future and Callable Done" />
   </component>
 </project>
